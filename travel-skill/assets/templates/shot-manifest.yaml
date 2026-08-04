@@ -1,0 +1,61 @@
+{
+  "project": "",
+  "model_defaults": {
+    "image_model": "midjourney",
+    "video_model": "seedance-2.0",
+    "max_seconds": 15,
+    "aspect_ratio": "16:9"
+  },
+  "shots": [
+    {
+      "shot_id": "S001",
+      "story_goal": "",
+      "duration_seconds": 0,
+      "source_frame": "",
+      "end_frame": "",
+      "reference_images": [],
+      "spatial_audit": {
+        "foreground": [],
+        "midground": [],
+        "background": [],
+        "subjects_present": [],
+        "visible_paths": [],
+        "existing_occluders": [],
+        "camera_start": "",
+        "allowed_content": [],
+        "allowed_entries": [],
+        "forbidden_additions": []
+      },
+      "action": {"timed_beats": [], "dialogue": []},
+      "camera": {
+        "framing": "",
+        "lens": "",
+        "main_motion": "",
+        "secondary_motion": "",
+        "speed": "",
+        "tracking_subject": "",
+        "camera_end": ""
+      },
+      "lighting": {
+        "motivation": "",
+        "key_source": "",
+        "direction": "",
+        "quality": "",
+        "ratio": "",
+        "fill_or_negative_fill": "",
+        "rim_and_background": "",
+        "medium": "",
+        "exposure_lock": true,
+        "white_balance_lock": true
+      },
+      "continuity": {
+        "subject_end_state": "",
+        "motion_direction": "",
+        "wind_direction": "",
+        "props": [],
+        "next_shot_dependency": ""
+      },
+      "risks": {"rights": "unknown", "portrait": "unknown", "cultural": "unknown"}
+    }
+  ]
+}

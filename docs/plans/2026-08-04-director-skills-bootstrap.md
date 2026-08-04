@@ -2,9 +2,9 @@
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Create and publish the public `kangarooking/director-skills` repository with a reusable Agent Skill structure and an honestly labeled travel-video-director roadmap entry.
+**Goal:** Create and publish the public `kangarooking/director-skills` repository with a reusable Agent Skill structure and an honestly labeled travel-skill roadmap entry.
 
-**Architecture:** Keep installable Skills as independent top-level directories with `SKILL.md` entrypoints, matching the organization used by `kangarooking-skills`. Store contributor scaffolding under `templates/`, and do not create an installable `travel-video-director` entrypoint until its workflow is validated with a real case.
+**Architecture:** Keep installable Skills as independent top-level directories with `SKILL.md` entrypoints, matching the organization used by `kangarooking-skills`. Store contributor scaffolding under `templates/`, and do not create an installable `travel-skill` entrypoint until its workflow is validated with a real case.
 
 **Tech Stack:** Markdown, Git, GitHub CLI, Agent Skills frontmatter.
 
@@ -28,13 +28,13 @@
 
 **Files:**
 - Create: `templates/SKILL.template.md`
-- Create: `travel-video-director/README.md`
+- Create: `travel-skill/README.md`
 
 **Step 1:** Add a generic Skill template with frontmatter, workflow, quality checks, safety, and resource routing.
 
 **Step 2:** Add the first Skill roadmap without an incomplete `SKILL.md`.
 
-**Step 3:** Confirm `find travel-video-director -name SKILL.md` returns no result.
+**Step 3:** Confirm `find travel-skill -name SKILL.md` returns no result.
 
 ### Task 3: Initialize and validate Git history
 

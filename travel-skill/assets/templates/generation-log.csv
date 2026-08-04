@@ -1,0 +1,2 @@
+shot_id,version,model,duration_seconds,source_frame,end_frame,prompt_file,result_file,spatial_issue,motion_issue,identity_issue,lighting_issue,continuity_issue,decision,notes
+
