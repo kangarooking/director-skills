@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 文旅电影导演"
+  short_description: "规划与质检真实素材和 AI 混合制作的电影级文旅宣传片"
+  default_prompt: "使用 $travel-skill 根据我的素材和首帧设计文旅宣传片分镜、运镜、布光与生成提示词。"

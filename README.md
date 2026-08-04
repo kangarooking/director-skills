@@ -12,7 +12,7 @@
 
 适用于 Claude Code、Codex，以及其他支持 [Agent Skills](https://agentskills.io/) 开放标准的 Agent。
 
-> 当前状态：仓库骨架已建立，首个 `travel-video-director` 正在规划中。未出现 `SKILL.md` 前，请不要将其当作已可安装的 Skill。
+> 当前状态：首个导演 Skill `travel-skill` 已收录。
 
 ---
 
@@ -20,7 +20,7 @@
 
 | 名字 | 一句话 | 状态 |
 | --- | --- | --- |
-| 🏝️ [travel-video-director](./travel-video-director) | 把文旅项目需求转成可执行的创意、叙事、分镜与 AI 视频生成方案 | 计划中 |
+| 🏝️ [travel-skill](./travel-skill) | 规划、编写、审阅和修复真实素材与 AI 镜头混合制作的文旅宣传片 | 可用 |
 
 ## 🎬 一个导演 Skill 应该做什么
 
