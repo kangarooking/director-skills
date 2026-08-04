@@ -1,6 +1,6 @@
-<h1 align="center">🎬 Director Skills</h1>
+<h1 align="center">🎬 导演Skill · Director Skills</h1>
 
-<p align="center"><strong>让 Agent 像导演一样，把创意、剧本、分镜、生成与成片组织成可执行的 AI 视频工作流。</strong></p>
+<p align="center"><strong>导演Skill：让 Agent 像导演一样，把创意、剧本、分镜、生成与成片组织成可执行的 AI 视频工作流。</strong></p>
 
 <p align="center">
   <a href="https://github.com/kangarooking/director-skills/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/kangarooking/director-skills?style=for-the-badge&logo=github&color=ffb000"></a>
@@ -8,11 +8,11 @@
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge"></a>
 </p>
 
-`director-skills` 是一套面向 AI 视频创作的开源 Agent Skills。每个 Skill 都是一位专项“AI 导演”，用结构化流程帮助 Agent 完成从需求理解到可交付结果的创作任务。
+**导演Skill（Director Skills）** 是一套面向 AI 视频创作的开源 Agent Skills。每个 Skill 都是一位专项“AI 导演”，用结构化流程帮助 Agent 完成从需求理解到可交付结果的创作任务。
 
 适用于 Claude Code、Codex，以及其他支持 [Agent Skills](https://agentskills.io/) 开放标准的 Agent。
 
-> 当前状态：首个导演 Skill `travel-skill` 已收录。
+> 当前状态：导演Skill 已收录首个专项 Skill `travel-skill`。
 
 ---
 
@@ -22,7 +22,7 @@
 | --- | --- | --- |
 | 🏝️ [travel-skill](./travel-skill) | 规划、编写、审阅和修复真实素材与 AI 镜头混合制作的文旅宣传片 | 可用 |
 
-## 🎬 一个导演 Skill 应该做什么
+## 🎬 一个导演Skill 应该做什么
 
 - 理解创作目标、受众、平台、时长与制作约束
 - 完成创意定位、叙事结构、视觉风格和镜头设计
