@@ -12,7 +12,7 @@
 
 适用于 Claude Code、Codex，以及其他支持 [Agent Skills](https://agentskills.io/) 开放标准的 Agent。
 
-> 当前状态：导演Skill 已收录首个专项 Skill `travel-skill`。
+> 当前状态：导演Skill 已收录 4 个专项 Skill，覆盖文旅视频、影视资产提示词、动作打戏提示词与 Miora 视频生成可靠性工作流。
 
 ---
 
@@ -21,6 +21,23 @@
 | 名字 | 一句话 | 状态 |
 | --- | --- | --- |
 | 🏝️ [travel-skill](./travel-skill) | 规划、编写、审阅和修复真实素材与 AI 镜头混合制作的文旅宣传片 | 可用 |
+| 🎨 [cinematic-asset-prompts](./cinematic-asset-prompts) | 从剧本提取角色、场景、道具与载具，并输出中英双语视觉资产提示词 | 可用 |
+| ⚔️ [action-fight-prompt](./action-fight-prompt) | 设计带时序、动作因果、环境反馈和资产锁定的电影级动作打戏提示词 | 可用 |
+| 🎞️ [miora-video-studio](./miora-video-studio) | 为 WorkBuddy / Miora 视频生成补充参数闸门、任务轮询、落盘核验与失败恢复 | 可用（需 Miora 环境） |
+
+## 🔎 Skills 说明
+
+### `cinematic-asset-prompts`
+
+适合在正式分镜或视频生成前，把剧本中的角色、场景、道具、载具拆成可复用的视觉资产。它会先统一影调与色彩科学，再输出中英双语提示词，并严格区分角色定妆、场景空镜和道具/载具设定图。
+
+### `action-fight-prompt`
+
+面向近身格斗、怪兽对决、载具追逐、群战和机甲大场面。它用 2–3 秒时序拆段、动作因果链、环境反馈和参考图映射来减少瞬移、穿模与无效动作。该 Skill 只负责提示词设计，不直接提交视频生成任务。
+
+### `miora-video-studio`
+
+面向已配置 WorkBuddy / Miora 工具的环境，重点解决“参数是否齐全、任务是否真的完成、成片属于哪个并发作业、规格是否与请求一致”等可靠性问题。仓库内附 `scripts/miora_watch.py`，用于登记、等待、轮询、认领和读取 MP4 文件头；它不包含凭据，也不能替代 Miora 视频生成通道。
 
 ## 🎬 一个导演Skill 应该做什么
 
@@ -37,6 +54,9 @@ director-skills/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── action-fight-prompt/
+├── cinematic-asset-prompts/
+├── miora-video-studio/
 ├── templates/
 │   └── SKILL.template.md
 └── <skill-name>/
