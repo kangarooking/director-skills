@@ -12,7 +12,7 @@
 
 适用于 Claude Code、Codex，以及其他支持 [Agent Skills](https://agentskills.io/) 开放标准的 Agent。
 
-> 当前状态：导演Skill 已收录 4 个专项 Skill，覆盖文旅视频、影视资产提示词、动作打戏提示词与 Miora 视频生成可靠性工作流。
+> 当前状态：导演Skill 已收录 5 个专项 Skill，其中 4 个可用、1 个实验中，覆盖文旅视频、影视资产提示词、动作打戏提示词、角色情绪表演提示词与 Miora 视频生成可靠性工作流。
 
 ---
 
@@ -23,6 +23,7 @@
 | 🏝️ [travel-skill](./travel-skill) | 规划、编写、审阅和修复真实素材与 AI 镜头混合制作的文旅宣传片 | 可用 |
 | 🎨 [cinematic-asset-prompts](./cinematic-asset-prompts) | 从剧本提取角色、场景、道具与载具，并输出中英双语视觉资产提示词 | 可用 |
 | ⚔️ [action-fight-prompt](./action-fight-prompt) | 设计带时序、动作因果、环境反馈和资产锁定的电影级动作打戏提示词 | 可用 |
+| 🎭 [emotion-performance-director](./emotion-performance-director) | 将情绪、台词与潜台词转成按时间展开的可观察微表演提示词 | 实验中（待真实案例验收） |
 | 🎞️ [miora-video-studio](./miora-video-studio) | 为 WorkBuddy / Miora 视频生成补充参数闸门、任务轮询、落盘核验与失败恢复 | 可用（需 Miora 环境） |
 
 ## 🔎 Skills 说明
@@ -34,6 +35,10 @@
 ### `action-fight-prompt`
 
 面向近身格斗、怪兽对决、载具追逐、群战和机甲大场面。它用 2–3 秒时序拆段、动作因果链、环境反馈和参考图映射来减少瞬移、穿模与无效动作。该 Skill 只负责提示词设计，不直接提交视频生成任务。
+
+### `emotion-performance-director`
+
+面向真人风格 AI 视频中的角色情绪表演，将抽象情绪、台词和场景语境转成眼神、呼吸、表情、身体与声音的具体表现，并按说话前、说话中、说话后组织时序。默认输出一段可直接插入视频提示词的简洁表演描述，保留原有角色、场景、镜头和台词要求。当前为实验中，尚未在本仓库记录真实案例验收结果。
 
 ### `miora-video-studio`
 
@@ -56,6 +61,7 @@ director-skills/
 ├── LICENSE
 ├── action-fight-prompt/
 ├── cinematic-asset-prompts/
+├── emotion-performance-director/
 ├── miora-video-studio/
 ├── templates/
 │   └── SKILL.template.md
