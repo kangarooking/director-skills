@@ -12,7 +12,7 @@
 
 适用于 Claude Code、Codex，以及其他支持 [Agent Skills](https://agentskills.io/) 开放标准的 Agent。
 
-> 当前状态：导演Skill 已收录 7 个专项 Skill，原有 6 个标记为可用；新增 `seedance-motion-studio`（V0.1，实验中），覆盖品牌宣传片、产品介绍、新闻解说与科普视频的策划和制作工作流。
+> 当前状态：导演Skill 已收录 7 个专项 Skill，均为可用。新增的 `seedance-motion-studio`（V0.1）已由作者确认完成测试，覆盖品牌宣传片、产品介绍、新闻解说与科普视频的策划和制作工作流。
 
 ---
 
@@ -26,7 +26,7 @@
 | ⚔️ [action-fight-prompt](./action-fight-prompt) | 设计带时序、动作因果、环境反馈和资产锁定的电影级动作打戏提示词 | 可用 |
 | 🎭 [emotion-performance-director](./emotion-performance-director) | 将情绪、台词与潜台词转成按时间展开的可观察微表演提示词 | 可用 |
 | 🎞️ [miora-video-studio](./miora-video-studio) | 为 WorkBuddy / Miora 视频生成补充参数闸门、任务轮询、落盘核验与失败恢复 | 可用 |
-| 🎥 [seedance-motion-studio](./seedance-motion-studio) | 将品牌宣传片等需求组织为研究、创意、分镜、参考映射、生成、剪辑与验收流程 | 实验中 · V0.1 |
+| 🎥 [seedance-motion-studio](./seedance-motion-studio) | 将品牌宣传片等需求组织为研究、创意、分镜、参考映射、生成、剪辑与验收流程 | 可用 · V0.1 |
 
 ## 🔎 Skills 说明
 
@@ -54,7 +54,7 @@
 
 即“品牌宣传片视频策划工作流 Skill”。以 Seedance 为目标视频引擎，包含品牌宣传、产品介绍、新闻解说、科普解释四类模块，以及镜头卡、素材清单、生成日志和交付模板。可用于方案、提示词包、制作支持及成片审查；实际生成需要运行环境提供可用且获授权的视频工具，本包不自带模型接口或凭据。
 
-保留飞书附件 V0.1 的完整内容。包内四个案例是桌面推演，原审查记录明确未执行真实 Seedance 生成；本次入库完成结构和引用检查，未重新生视频，因此暂标记为“实验中”。详见 [Skill 说明](./seedance-motion-studio/README.md) 与 [原包审查记录](./seedance-motion-studio/tests/phase3-review.md)。
+基于飞书附件 V0.1 的完整内容入库，作者已于 2026-10-20 确认完成测试，当前状态为“可用”。包内四个示例与原审查记录仍保留桌面推演阶段的历史范围。详见 [Skill 说明](./seedance-motion-studio/README.md) 与 [原包审查记录](./seedance-motion-studio/tests/phase3-review.md)。
 
 万圣节海报和 3D 盲盒 IP 设定图这两个生图 Skill 收录于姊妹仓库 [设计Skill · Design Skills](https://github.com/kangarooking/design-skills)。
 

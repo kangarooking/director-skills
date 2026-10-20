@@ -1,7 +1,7 @@
 {
   "name": "seedance-motion-studio",
   "version": "0.1.0",
-  "status": "draft-reviewed-at-workflow-design-level",
+  "status": "available",
   "file_count": 51,
   "files": [
     "CHANGELOG.md",
@@ -60,6 +60,6 @@
     "Workflow Skill; does not itself provide Seedance API access.",
     "Seedance interface capabilities must be verified before use.",
     "Four case runs are tabletop workflow tests, not generated videos.",
-    "Actual model-output validation remains outstanding."
+    "Author confirmed testing completed on 2026-10-20; status updated to available."
   ]
 }
