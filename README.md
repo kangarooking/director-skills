@@ -20,13 +20,13 @@
 
 | 名字 | 一句话 | 状态 |
 | --- | --- | --- |
+| 🎥 [seedance-motion-studio](./seedance-motion-studio) | 将品牌宣传片等需求组织为研究、创意、分镜、参考映射、生成、剪辑与验收流程 | 可用 · V0.1 |
 | 🏝️ [travel-skill](./travel-skill) | 规划、编写、审阅和修复真实素材与 AI 镜头混合制作的文旅宣传片 | 可用 |
 | 📷 [travel-photo-to-video](./travel-photo-to-video) | 将真实旅拍照片组织成文旅分镜，输出统一视觉母版与逐镜头首帧图生视频提示词 | 可用 |
 | 🎨 [cinematic-asset-prompts](./cinematic-asset-prompts) | 从剧本提取角色、场景、道具与载具，并输出中英双语视觉资产提示词 | 可用 |
 | ⚔️ [action-fight-prompt](./action-fight-prompt) | 设计带时序、动作因果、环境反馈和资产锁定的电影级动作打戏提示词 | 可用 |
 | 🎭 [emotion-performance-director](./emotion-performance-director) | 将情绪、台词与潜台词转成按时间展开的可观察微表演提示词 | 可用 |
 | 🎞️ [miora-video-studio](./miora-video-studio) | 为 WorkBuddy / Miora 视频生成补充参数闸门、任务轮询、落盘核验与失败恢复 | 可用 |
-| 🎥 [seedance-motion-studio](./seedance-motion-studio) | 将品牌宣传片等需求组织为研究、创意、分镜、参考映射、生成、剪辑与验收流程 | 可用 · V0.1 |
 
 ## 🔎 Skills 说明
 
