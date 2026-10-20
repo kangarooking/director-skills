@@ -1,0 +1,2 @@
+claim_id,claim_text,claim_class,status,source_id,source_url_or_file,source_date,checked_at,caveat_or_conflict,used_in_beats_or_shots,visual_provenance,review_status
+CLM001,Replace with a claim,VERIFIED_FACT,pending,SRC001,replace-me,YYYY-MM-DD,YYYY-MM-DD,Record caveats,B02;S003,GRAPHIC_OR_DIAGRAM,pending

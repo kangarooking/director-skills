@@ -1,0 +1,2 @@
+project_id,shot_id,candidate_id,prompt_version,reference_ids,seedance_entry,mode,parameters_verified,generated_at,asset_path,observed_result,failure_class,score,decision,decision_reason,next_change
+PROJECT_01,S001,C001,P01,ASSET_01,manual UI,reference image,confirm in UI,YYYY-MM-DD,outputs/S001_C001.mp4,Describe observation,none,4,select,Meets acceptance criteria,None

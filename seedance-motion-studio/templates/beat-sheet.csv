@@ -1,0 +1,3 @@
+beat_id,start_sec,end_sec,story_function,key_information,visual_strategy,audio_intent,transition_out,approval_status
+B01,0,3,hook,Replace with key message,Hero reveal,Music cue,Match cut,draft
+B02,3,7,context,Replace with context,Establishing shot,VO begins,Sound bridge,draft

@@ -1,0 +1,2 @@
+asset_id,filename_or_uri,asset_type,source,version,authority_level,controls,does_not_control,must_preserve,allowed_variation,used_in_shots,rights_or_privacy_notes,quality_notes
+ASSET_01,replace-me.png,PRODUCT,User-provided,1,authoritative,Product geometry and color,Camera movement,Outline;ports;logo,Lighting/background,S001,Confirm rights,Check resolution
